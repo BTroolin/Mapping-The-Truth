@@ -1,32 +1,31 @@
 // GRANIM
-var granimInstance = new Granim({
-    element: '#canvas-complex',
-    direction: 'diagonal',
-    isPausedWhenNotInView: true,
-    image : {
-        source: 'images/bg.jpg',
-	    	// 'images/bg.png'  for png format bg image
-		// source: 'images/aleinbg.jpeg',
-		stretchMode: ['stretch-if-bigger', 'stretch-if-bigger'],
-		position: ['center','bottom'],
-        blendingMode: 'multiply'
-    },
-    states : {
-        "default-state": {
-            gradients: [
-                ['#29323c', '#485563'],
-                ['#FF6B6B', '#556270'],
-                ['#80d3fe', '#7ea0c4'],
-                ['#f0ab51', '#eceba3'],
-		['#ff9966', '#ff5e62'],
-                ['#00F260', '#0575E6'],
-                ['#e1eec3', '#f05053']
-            ],
-            transitionSpeed: 7000
-        }
-    }
+// var granimInstance = new Granim({
+//     element: '#canvas-complex',
+//     direction: 'diagonal',
+//     isPausedWhenNotInView: true,
+//     image : {
+//         source: 'images/bg.png',
+// 		// source: 'images/aleinbg.jpeg',
+// 		stretchMode: ['stretch-if-bigger', 'stretch-if-bigger'],
+// 		position: ['center','bottom'],
+//         blendingMode: 'multiply'
+//     },
+//     states : {
+//         "default-state": {
+//             gradients: [
+//                 ['#29323c', '#485563'],
+//                 ['#FF6B6B', '#556270'],
+//                 ['#80d3fe', '#7ea0c4'],
+//                 ['#f0ab51', '#eceba3'],
+// 				['#ff9966', '#ff5e62'],
+//                 ['#00F260', '#0575E6'],
+//                 ['#e1eec3', '#f05053']
+//             ],
+//             transitionSpeed: 7000
+//         }
+//     }
 	 
-});
+// });
 
 //OSM tiles attribution and URL
 var osmLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
