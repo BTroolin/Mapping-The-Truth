@@ -4,7 +4,8 @@ var granimInstance = new Granim({
     direction: 'diagonal',
     isPausedWhenNotInView: true,
     image : {
-        source: 'images/bg.png',
+        source: 'images/bg.jpg',
+	    	// 'images/bg.png'  for png format bg image
 		// source: 'images/aleinbg.jpeg',
 		stretchMode: ['stretch-if-bigger', 'stretch-if-bigger'],
 		position: ['center','bottom'],
@@ -17,7 +18,7 @@ var granimInstance = new Granim({
                 ['#FF6B6B', '#556270'],
                 ['#80d3fe', '#7ea0c4'],
                 ['#f0ab51', '#eceba3'],
-				['#ff9966', '#ff5e62'],
+		['#ff9966', '#ff5e62'],
                 ['#00F260', '#0575E6'],
                 ['#e1eec3', '#f05053']
             ],
